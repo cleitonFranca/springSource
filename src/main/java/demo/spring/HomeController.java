@@ -57,4 +57,9 @@ public class HomeController {
         return "snoop"; //~ the jsp page name to return as a view
     }
     
+    @RequestMapping(value = "/teste", method = RequestMethod.GET)
+    public String teste() {
+        return "teste"; //~ the jsp page name to return as a view
+    }
+    
 }
